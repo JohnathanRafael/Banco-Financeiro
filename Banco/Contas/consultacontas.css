@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #222222;
+  background-image: linear-gradient(
+    225deg,
+    #222222 0%,
+    #403152 50%,
+    #222222 100%
+  );
+
+  min-height: 100vh;
+  min-width: 100vw;
+  font-size: 1em;
+}
+
+body form {
+  display: flex;
+  align-content: flex-start;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+body fieldset form p {
+  margin-top: 10px;
+  margin-left: 10px;
+  color: white;
+  font-size: 20px;
+}
+
+body fieldset form input {
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 200px;
+  background-color: white;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+}
+
+body fieldset form select {
+  width: 200px;
+  border-radius: 5px;
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  text-align: center;
+}
+
+input {
+  border-radius: 5px;
+}
+
+table {
+  margin-top: 10px;
+  display: flex;
+  color: white;
+}
+
+tr {
+  display: flex;
+  gap: 150px;
+  justify-content: space-between;
+  margin-left: 10px;
+}
+
+.teste {
+  color: black;
+  margin-left: 10px;
+  display: flex;
+  gap: 10px;
+  text-align: center;
+}
+
+.teste p {
+  color: white;
+  margin-left: 10px;
+}
+
+.teste input {
+  text-align: center;
+}

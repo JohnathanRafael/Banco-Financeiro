@@ -1,0 +1,17 @@
+.teste {
+  color: black;
+  margin-left: 10px;
+  display: flex;
+  gap: 10px;
+  text-align: center;
+}
+
+.teste p {
+  color: white;
+  gap: 10px;
+  margin-left: 10px;
+}
+
+.teste input {
+  text-align: center;
+}

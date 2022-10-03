@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+.ui-helper-hidden {
+  display: none;
+}
+
+body {
+  background-color: #222222;
+  background-image: linear-gradient(
+    225deg,
+    #222222 0%,
+    #403152 50%,
+    #222222 100%
+  );
+}
+
+body form table {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 10px;
+  gap: 10px;
+}
+
+body form table tr td {
+  color: white;
+  border-radius: 15px;
+}
+
+body form table tr td input {
+  border-radius: 15px;
+  height: 30px;
+  text-align: center;
+  width: 160px;
+}
+
+body form table tr td select {
+  border-radius: 15px;
+  height: 30px;
+  text-align: center;
+  width: 160px;
+}
+
+/* muda o botao */
+.ui-button-icon-only {
+  width: 2em;
+  box-sizing: border-box;
+  text-indent: -9999px;
+  white-space: nowrap;
+}
+
+.ui-dialog .ui-dialog-titlebar {
+  padding: 0.4em 1em;
+  position: relative;
+}
+
+.ui-dialog .ui-dialog-title {
+  float: left;
+  width: 90%;
+  background-color: aqua;
+}
+
+.ui-draggable .ui-dialog-titlebar {
+  cursor: move;
+}
+
+.ui-dialog .ui-dialog-titlebar-close {
+  right: 0.3em;
+  top: 50%;
+  width: 15px;
+  margin: 0 -5px 0 10px;
+  height: 15px;
+  background-image: ('X.png');
+}
+
+.ui-dialog .ui-dialog-content {
+  position: center;
+  border: 0;
+  margin-bottom: -15px;
+  padding: 0.5em 1em;
+  background: color;
+  font-family: arial;
+}
+
+/* borda da mensagem */
+.ui-widget.ui-widget-content {
+  border: 3px solid #c5c5c5;
+}
